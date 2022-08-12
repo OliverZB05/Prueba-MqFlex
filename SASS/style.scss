@@ -1,0 +1,244 @@
+/* Inicio del reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Final del reset */
+
+
+// ----------------------- 📘Media query PC📘 -----------------------
+@media screen and (min-width: 1200px) { 
+
+.Container{
+    display: grid;
+    grid-template-areas: 
+    " Fila";
+    grid-template-rows: 500px;
+
+    .Fila{
+        grid-area: Fila;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+
+        .Plantilla{
+            height: 300px;
+            width: 900px;
+            background-color: rgb(77, 76, 76);
+            display: grid;
+            grid-template-areas: 
+            " Subfila1"
+            " Subfila2";
+            grid-template-rows: 1fr 1fr;
+
+
+            .Subfila1{
+                grid-area: Subfila1;
+                display: flex;
+                justify-content: center;
+
+                .Cuadro1{
+                    height: 60px;
+                    width: 60px;
+                    background-color: black;
+                    position: relative;
+                    top: 43px;
+                }
+            }
+
+            .Subfila2{
+                grid-area: Subfila2;
+                display: flex;
+                justify-content: center;
+
+                .Cuadro2{
+                    height: 60px;
+                    width: 60px;
+                    background-color: black;
+                    position: relative;
+                    top: 43px;
+                }
+            }
+
+            
+        }
+    }
+}
+}
+// ----------------------- 📘Media query PC📘 -----------------------
+
+// ----------------------- 📘Media query PC📘 -----------------------
+@media screen and (max-width: 1200px) { 
+
+    .Container{
+        display: grid;
+        grid-template-areas: 
+        " Fila";
+        grid-template-rows: 500px;
+        overflow-x: hidden;
+    
+        .Fila{
+            grid-area: Fila;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+    
+            .Plantilla{
+                height: 300px;
+                width: 900px;
+                background-color: rgb(77, 76, 76);
+                display: grid;
+                grid-template-areas: 
+                " Subfila1"
+                " Subfila2";
+                grid-template-rows: 1fr 1fr;
+    
+    
+                .Subfila1{
+                    grid-area: Subfila1;
+                    display: flex;
+                    justify-content: center;
+    
+                    .Cuadro1{
+                        height: 60px;
+                        width: 60px;
+                        background-color: black;
+                        position: relative;
+                        top: 43px;
+                    }
+                }
+    
+                .Subfila2{
+                    grid-area: Subfila2;
+                    display: flex;
+                    justify-content: center;
+    
+                    .Cuadro2{
+                        height: 60px;
+                        width: 60px;
+                        background-color: black;
+                        position: relative;
+                        top: 43px;
+                    }
+                }
+    
+                
+            }
+        }
+    }
+    }
+    // ----------------------- 📘Media query PC📘 -----------------------
+    
+
+
+
+
+
+
+
+// ----------------------- 📕Media query Mobile📕 -----------------------
+@media screen and (max-width: 768px) { 
+
+    .Container{
+        display: grid;
+        display: grid;
+        grid-template-areas: 
+        " Fila";
+        grid-template-rows: 500px;
+    
+        .Fila{
+            grid-area: Fila;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+    
+            .Plantilla{
+                height: 300px;
+                width: 500px;
+                background-color: rgb(160, 160, 160);
+    }
+    }
+}
+}
+// ----------------------- 📕Media query Mobile📕 -----------------------
+
+// ----------------------- 📕Media query Mobile📕 -----------------------
+@media screen and (max-width: 600px) { 
+
+    .Container{
+        display: grid;
+        display: grid;
+        grid-template-areas: 
+        " Fila";
+        grid-template-rows: 500px;
+    
+        .Fila{
+            grid-area: Fila;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+    
+            .Plantilla{
+                height: 300px;
+                width: 480px;
+                background-color: rgb(160, 160, 160);
+    }
+    }
+}
+}
+// ----------------------- 📕Media query Mobile📕 -----------------------
+
+// ----------------------- 📕Media query Mobile📕 -----------------------
+@media screen and (max-width: 480px) { 
+
+    .Container{
+        display: grid;
+        display: grid;
+        grid-template-areas: 
+        " Fila";
+        grid-template-rows: 500px;
+    
+        .Fila{
+            grid-area: Fila;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+    
+            .Plantilla{
+                height: 300px;
+                width: 380px;
+                background-color: rgb(160, 160, 160);
+    }
+    }
+}
+}
+// ----------------------- 📕Media query Mobile📕 -----------------------
+
+
+// ----------------------- 📕Media query Mobile📕 -----------------------
+@media screen and (max-width: 320px) { 
+
+    .Container{
+        display: grid;
+        display: grid;
+        grid-template-areas: 
+        " Fila";
+        grid-template-rows: 500px;
+    
+        .Fila{
+            grid-area: Fila;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+    
+            .Plantilla{
+                height: 300px;
+                width: 290px;
+                background-color: rgb(160, 160, 160);
+    }
+    }
+}
+}
+// ----------------------- 📕Media query Mobile📕 -----------------------
+
+

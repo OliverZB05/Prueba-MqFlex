@@ -1,0 +1,146 @@
+/* Inicio del reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Final del reset */
+@media screen and (min-width: 1200px) {
+  .Container {
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 900px;
+        background-color: #4d4c4c;
+        display: grid;
+        grid-template-areas: " Subfila1" " Subfila2";
+        grid-template-rows: 1fr 1fr; }
+        .Container .Fila .Plantilla .Subfila1 {
+          grid-area: Subfila1;
+          display: flex;
+          justify-content: center; }
+          .Container .Fila .Plantilla .Subfila1 .Cuadro1 {
+            height: 60px;
+            width: 60px;
+            background-color: black;
+            position: relative;
+            top: 43px; }
+        .Container .Fila .Plantilla .Subfila2 {
+          grid-area: Subfila2;
+          display: flex;
+          justify-content: center; }
+          .Container .Fila .Plantilla .Subfila2 .Cuadro2 {
+            height: 60px;
+            width: 60px;
+            background-color: black;
+            position: relative;
+            top: 43px; } }
+
+@media screen and (max-width: 1200px) {
+  .Container {
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px;
+    overflow-x: hidden; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 900px;
+        background-color: #4d4c4c;
+        display: grid;
+        grid-template-areas: " Subfila1" " Subfila2";
+        grid-template-rows: 1fr 1fr; }
+        .Container .Fila .Plantilla .Subfila1 {
+          grid-area: Subfila1;
+          display: flex;
+          justify-content: center; }
+          .Container .Fila .Plantilla .Subfila1 .Cuadro1 {
+            height: 60px;
+            width: 60px;
+            background-color: black;
+            position: relative;
+            top: 43px; }
+        .Container .Fila .Plantilla .Subfila2 {
+          grid-area: Subfila2;
+          display: flex;
+          justify-content: center; }
+          .Container .Fila .Plantilla .Subfila2 .Cuadro2 {
+            height: 60px;
+            width: 60px;
+            background-color: black;
+            position: relative;
+            top: 43px; } }
+
+@media screen and (max-width: 768px) {
+  .Container {
+    display: grid;
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 500px;
+        background-color: #a0a0a0; } }
+
+@media screen and (max-width: 600px) {
+  .Container {
+    display: grid;
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 480px;
+        background-color: #a0a0a0; } }
+
+@media screen and (max-width: 480px) {
+  .Container {
+    display: grid;
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 380px;
+        background-color: #a0a0a0; } }
+
+@media screen and (max-width: 320px) {
+  .Container {
+    display: grid;
+    display: grid;
+    grid-template-areas: " Fila";
+    grid-template-rows: 500px; }
+    .Container .Fila {
+      grid-area: Fila;
+      background-color: aqua;
+      display: flex;
+      justify-content: center; }
+      .Container .Fila .Plantilla {
+        height: 300px;
+        width: 290px;
+        background-color: #a0a0a0; } }
